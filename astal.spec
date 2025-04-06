@@ -6,14 +6,15 @@ Summary:    Metapackage for Astal
 Name:       astal
 Version:    1~%{bumpver}.git%{astal_shortcommit}
 Group:      Window Manager/Utilities
+License:    GPL-2.1
 BuildArch:	noarch
 
-Requires:   lib64astal-io
-Requires:   lib64astal-lib
-Requires:   lib64astal-lua
-Requires:   lib64astal-gtk3
-Requires:   lib64astal-gtk4
-Requires:   lib64astal-gjs
+Requires:   astal-io
+Requires:   astal-lib
+Requires:   astal-lua
+Requires:   astal3
+Requires:   astal4
+Requires:   astal-gjs
 Requires:   lib64appmenu-glib-translator
 
 %descrption
