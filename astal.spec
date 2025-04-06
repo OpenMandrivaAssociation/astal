@@ -6,6 +6,7 @@ Summary:    Metapackage for Astal
 Name:       astal
 Version:    1~%{bumpver}.git%{astal_shortcommit}
 Group:      Window Manager/Utilities
+BuildArch:	noarch
 
 Requires:   lib64astal-io
 Requires:   lib64astal-lib
@@ -17,3 +18,7 @@ Requires:   lib64appmenu-glib-translator
 
 %descrption
 This package is a meta-package, meaning that its purpose is to contain all dependencies for running astal/ags2
+
+%files
+
+#---------------------------------------------------------------------------
