@@ -5,6 +5,7 @@
 Summary:    Metapackage for Astal
 Name:       astal
 Version:    1~%{bumpver}.git%{astal_shortcommit}
+Release:    1
 Group:      Window Manager/Utilities
 License:    GPL-2.1
 BuildArch:	noarch
