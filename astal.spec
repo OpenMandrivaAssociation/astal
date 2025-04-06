@@ -11,7 +11,7 @@ License:	LGPL-2.1
 
 
 Requires:	%{mklibname astal-io}
-Requires:	%{mklibname astal-lib}
+Requires:	%{mklibname astal-libs}
 Requires:	%{mklibname astal-lua}
 Requires:	%{mklibname astal-gtk3}
 Requires:	%{mklibname astal-gtk4}
