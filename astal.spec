@@ -16,7 +16,7 @@ Requires:   astal-lua
 Requires:   astal3
 Requires:   astal4
 Requires:   astal-gjs
-Requires:   lib64appmenu-glib-translator
+Requires:   typelib(AppmenuGLibTranslator)
 
 %description
 This package is a meta-package, meaning that its purpose is to contain all dependencies for running astal/ags2
