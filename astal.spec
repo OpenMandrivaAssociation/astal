@@ -7,13 +7,13 @@ Name:       astal
 Version:    1~%{bumpver}.git%{astal_shortcommit}
 Group:      Window Manager/Utilities
 
-Requires:   astal-io
-Requires:   astal-lib
-Requires:   astal-lua
-Requires:   astal-gtk3
-Requires:   astal-gtk4
-Requires:   astal-gjs
-Requires:   appmenu-glib-translator
+Requires:   lib64astal-io
+Requires:   lib64astal-lib
+Requires:   lib64astal-lua
+Requires:   lib64astal-gtk3
+Requires:   lib64astal-gtk4
+Requires:   lib64astal-gjs
+Requires:   lib64appmenu-glib-translator
 
 %descrption
 This package is a meta-package, meaning that its purpose is to contain all dependencies for running astal/ags2
